@@ -1,0 +1,97 @@
+1
+
+#include <iostream>
+using namespace std;
+
+
+void add(int a, int b)
+{
+cout << "sum = " << (a + b);
+}
+
+void add(double a, double b)
+{
+	cout << endl << "sum = " << (a + b);
+}
+
+// Driver code
+int main()
+{
+	add(10, 2);
+	add(5.7, 6.4);
+
+	return 0;
+}
+
+
+2 
+
+
+#include <iostream>
+using namespace std;
+
+void add(int a, int b)
+{
+cout << "sum = " << (a + b);
+}
+
+void add(int a, int b, int c)
+{
+	cout << endl << "sum = " << (a + b + c);
+}
+
+// Driver code
+int main()
+{
+	add(10, 2);
+	add(5, 6, 4);
+
+	return 0;
+}
+
+3
+
+#include<iostream>
+using namespace std;
+
+void add(int a, double b)
+{
+	cout<<"sum = "<<(a+b);
+}
+
+void add(double a, int b)
+{
+	cout<<endl<<"sum = "<<(a+b);
+}
+
+// Driver code
+int main()
+{
+	add(10,2.5);
+	add(5.5,6);
+
+	return 0;
+}
+
+
+Final
+
+#include <iostream>
+using namespace std;
+
+void print(int i) {
+cout << " Here is int " << i << endl;
+}
+void print(double f) {
+cout << " Here is float " << f << endl;
+}
+void print(char const *c) {
+cout << " Here is char* " << c << endl;
+}
+
+int main() {
+print(10);
+print(10.10);
+print("ten");
+return 0;
+}

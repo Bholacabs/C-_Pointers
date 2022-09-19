@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a=10;
+    //int * b=&a;
+    
+    //cout<<sizeof(&a)<<endl;
+    //cout<<b<<endl;
+    
+    int *ptr1, *ptr2;
+    ptr1=&a;
+    cout<<ptr1<<endl;
+    ptr2=&a;
+    cout<<ptr2<<endl;
+    cout<<endl; 
+    cout<<*ptr1+1<<endl;
+    cout<<ptr2+1<<endl;
+    
+    char ch1='A';
+    char ch2='i';
+    char ch3='&';
+     
+    //cout<<&ch1<<endl; 
+    //cout<<&ch2<<endl;
+    //cout<<&ch3<<endl;
+    
+    //int *ch1a = &ch1;
+    //cout<<ch1a<<endl;
+    
+    //cout<<(int *)&ch1<<endl;
+    
+    /*int a=10;
+    double b=10.0;
+    
+    int *ptr=&a;
+    double *dptr=&b;
+    
+    cout<<ptr<<endl;
+    cout<<ptr+1<<endl;
+    */
+    
+
+    return 0;
+}

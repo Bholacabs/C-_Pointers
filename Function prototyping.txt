@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void foo();
+
+void foo_2(int,int);
+
+int main()
+{
+foo();
+foo_2(2,3);
+return 0;
+}
+
+void foo()
+{
+ cout<<"foo called"<<endl;
+}
+void foo_2(int a,int b)
+{
+    cout<<a+b<<endl;
+}
+
